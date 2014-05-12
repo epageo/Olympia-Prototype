@@ -71,26 +71,6 @@ $(document).ready(function(){
     	$('#password-container-hide').hide();
     });
 
-	/*function validatePass(pass){
-		var validLength = /.{6}/.test(pass);
-		var hasCaps = /[A-Z]/.test(pass);
-		var hasNums = /\d/.test(pass);
-		var hasSpecials = /[~_&*%@$]/.test(pass);
-		if(!validLength){
-		arr.push("password should be minimum 6 character long.");
-			//alert('password should be minimum 6 character long.');
-		}else if(!hasCaps){
-			arr.push("password should contain at least 1 Capital letter.");
-			//alert('password should contain at least 1 Capital letter.');
-		}else if(!hasNums){
-			arr.push("password should contain at least 1 numerical.");
-			//alert('password should contain at least 1 numerical.');
-		}else if(!hasSpecials){
-			arr.push("password should contain at least 1 special character.");
-			//alert('password should contain at least 1 special character.');
-		}
-	}*/
-
 	$('#errorMsg').hide();
 	
 	var
